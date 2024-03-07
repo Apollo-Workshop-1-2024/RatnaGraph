@@ -153,8 +153,8 @@ typeReview @key(fields:"id") {
 #A Subscription for whenever a new review has been added.
 #"""
 #type Subscription {
-typeSubscription {
-   reviewAdded: Review
+type Subscription {
+  reviewAdded: Review
 }
 #ADD SUBSCRIPTION FIELDS AND RETURN TYPES HERE
 #}
